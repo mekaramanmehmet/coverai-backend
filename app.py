@@ -14,7 +14,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 # --- 1. ANAHTARLAR ---
 # API Key'ini kontrol et, tırnak içinde eksik karakter kalmasın
-genai.configure(api_key="AIzaSyDxm_GxbTIRqEcwYBWsa1vMwubLdBVxjnc")
+genai.configure(api_key="AIzaSyDUZvolrIgqNjvYOm6Z1dhSGZb4xD8pU9s")
 
 # En stabil model 1.5-flash sürümüdür
 model = genai.GenerativeModel('gemini-1.5-flash') 
