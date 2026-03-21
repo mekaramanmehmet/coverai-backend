@@ -17,7 +17,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 genai.configure(api_key="AIzaSyDUZvolrIgqNjvYOm6Z1dhSGZb4xD8pU9s")
 
 # En stabil model 1.5-flash sürümüdür
-model = genai.GenerativeModel('gemini-1.5-flash') 
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 stripe.api_key = "sk_test_51RalPZLBmahSK3WTUJrzDoqUuFI5AOm2xUxQVj2ZaWmD1UF7eHGE0h5bMkBxu1lr4HBHygRksjoipgJ07w5r7GRO00ur6xP5SX"
 endpoint_secret = "whsec_9c7ed488f8f3f6db579cc0819014205a30f8128f5fcf0b0ed04c227e24553a35"
